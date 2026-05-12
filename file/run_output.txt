@@ -1,0 +1,245 @@
+﻿
+================================================================
+  STEP 1 & 2 ΓÇö Normalized Skills per Resume
+================================================================
+
+  Aarav Sharma
+    Skills (8): flask, git, machine learning, numpy, pandas, python, sql, tensorflow
+
+  Bhavya Patel
+    Skills (8): docker, git, java, kubernetes, microservices, mysql, rest api, spring boot
+
+  Chirag Mehta
+    Skills (8): css, express, git, html, javascript, mongodb, node.js, react
+
+  Divya Nair
+    Skills (7): computer vision, deep learning, keras, nlp, python, pytorch, tensorflow
+
+  Eshan Gupta
+    Skills (8): ansible, aws, ci/cd, docker, jenkins, kubernetes, linux, terraform
+
+  Fatima Khan
+    Skills (8): data science, excel, machine learning, numpy, pandas, python, sql, tableau
+
+  Gaurav Singh
+    Skills (8): c++, git, go, linux, oop, problem solving, r, system design
+
+  Harini Reddy
+    Skills (7): android, firebase, flutter, git, ios, javascript, react native
+
+  Ishaan Verma
+    Skills (6): cryptography, cybersecurity, ethical hacking, linux, network security, python
+
+  Jhanvi Desai
+    Skills (7): blockchain, ethereum, git, javascript, python, smart contracts, solidity
+
+================================================================
+  STEP 3 ΓÇö Shared Vocabulary (alphabetically sorted)
+================================================================
+    1.  android
+    2.  ansible
+    3.  aws
+    4.  blockchain
+    5.  c++
+    6.  ci/cd
+    7.  computer vision
+    8.  cryptography
+    9.  css
+   10.  cybersecurity
+   11.  data science
+   12.  deep learning
+   13.  docker
+   14.  ethereum
+   15.  ethical hacking
+   16.  excel
+   17.  express
+   18.  firebase
+   19.  flask
+   20.  flutter
+   21.  git
+   22.  go
+   23.  html
+   24.  ios
+   25.  java
+   26.  javascript
+   27.  jenkins
+   28.  keras
+   29.  kubernetes
+   30.  linux
+   31.  machine learning
+   32.  microservices
+   33.  mongodb
+   34.  mysql
+   35.  network security
+   36.  nlp
+   37.  node.js
+   38.  numpy
+   39.  oop
+   40.  pandas
+   41.  problem solving
+   42.  python
+   43.  pytorch
+   44.  r
+   45.  react
+   46.  react native
+   47.  rest api
+   48.  smart contracts
+   49.  solidity
+   50.  spring boot
+   51.  sql
+   52.  system design
+   53.  tableau
+   54.  tensorflow
+   55.  terraform
+
+  Total: 55 unique canonical skills
+
+================================================================
+  STEP 4a ΓÇö TF-IDF Vectors (non-zero entries only)
+================================================================
+
+  Aarav Sharma
+    flask                            0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    git                              0.063853  Γûê
+    machine learning                 0.201180  ΓûêΓûêΓûêΓûêΓûêΓûê
+    numpy                            0.201180  ΓûêΓûêΓûêΓûêΓûêΓûê
+    pandas                           0.201180  ΓûêΓûêΓûêΓûêΓûêΓûê
+    python                           0.086643  ΓûêΓûê
+    sql                              0.201180  ΓûêΓûêΓûêΓûêΓûêΓûê
+    tensorflow                       0.201180  ΓûêΓûêΓûêΓûêΓûêΓûê
+
+  Bhavya Patel
+    docker                           0.201180  ΓûêΓûêΓûêΓûêΓûêΓûê
+    git                              0.063853  Γûê
+    java                             0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    kubernetes                       0.201180  ΓûêΓûêΓûêΓûêΓûêΓûê
+    microservices                    0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    mysql                            0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    rest api                         0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    spring boot                      0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+
+  Chirag Mehta
+    css                              0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    express                          0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    git                              0.063853  Γûê
+    html                             0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    javascript                       0.150497  ΓûêΓûêΓûêΓûê
+    mongodb                          0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    node.js                          0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    react                            0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+
+  Divya Nair
+    computer vision                  0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    deep learning                    0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    keras                            0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    nlp                              0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    python                           0.099021  ΓûêΓûê
+    pytorch                          0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    tensorflow                       0.229920  ΓûêΓûêΓûêΓûêΓûêΓûê
+
+  Eshan Gupta
+    ansible                          0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    aws                              0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    ci/cd                            0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    docker                           0.201180  ΓûêΓûêΓûêΓûêΓûêΓûê
+    jenkins                          0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    kubernetes                       0.201180  ΓûêΓûêΓûêΓûêΓûêΓûê
+    linux                            0.150497  ΓûêΓûêΓûêΓûê
+    terraform                        0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+
+  Fatima Khan
+    data science                     0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    excel                            0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    machine learning                 0.201180  ΓûêΓûêΓûêΓûêΓûêΓûê
+    numpy                            0.201180  ΓûêΓûêΓûêΓûêΓûêΓûê
+    pandas                           0.201180  ΓûêΓûêΓûêΓûêΓûêΓûê
+    python                           0.086643  ΓûêΓûê
+    sql                              0.201180  ΓûêΓûêΓûêΓûêΓûêΓûê
+    tableau                          0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+
+  Gaurav Singh
+    c++                              0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    git                              0.063853  Γûê
+    go                               0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    linux                            0.150497  ΓûêΓûêΓûêΓûê
+    oop                              0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    problem solving                  0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    r                                0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    system design                    0.287823  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+
+  Harini Reddy
+    android                          0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    firebase                         0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    flutter                          0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    git                              0.072975  ΓûêΓûê
+    ios                              0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    javascript                       0.171996  ΓûêΓûêΓûêΓûêΓûê
+    react native                     0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+
+  Ishaan Verma
+    cryptography                     0.383764  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    cybersecurity                    0.383764  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    ethical hacking                  0.383764  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    linux                            0.200662  ΓûêΓûêΓûêΓûêΓûêΓûê
+    network security                 0.383764  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    python                           0.115525  ΓûêΓûêΓûê
+
+  Jhanvi Desai
+    blockchain                       0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    ethereum                         0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    git                              0.072975  ΓûêΓûê
+    javascript                       0.171996  ΓûêΓûêΓûêΓûêΓûê
+    python                           0.099021  ΓûêΓûê
+    smart contracts                  0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    solidity                         0.328941  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+
+================================================================
+  STEP 4b ΓÇö JD Binary Vectors (required skills only)
+================================================================
+
+  JD1 - AI/ML Engineer (Seoul Tech)
+    Required skills (8): computer vision, deep learning, machine learning, nlp, python, pytorch, sql, tensorflow
+
+  JD2 - Full-Stack Developer (Kakao)
+    Required skills (9): css, docker, git, html, javascript, mongodb, node.js, react, rest api
+
+  JD3 - DevOps/Cloud Engineer (Samsung SDS)
+    Required skills (9): ansible, aws, ci/cd, docker, jenkins, kubernetes, linux, python, terraform
+
+================================================================
+  STEP 5 ΓÇö Full Cosine Similarity Matrix
+================================================================
+  Candidate               JD1 - AI/ML Engineer (Seoul   JD2 - Full-Stack Developer (  JD3 - DevOps/Cloud Engineer 
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Aarav Sharma            0.45                          0.04                          0.05                        
+  Bhavya Patel            0.00                          0.26                          0.19                        
+  Chirag Mehta            0.00                          0.76                          0.00                        
+  Divya Nair              0.75                          0.00                          0.04                        
+  Eshan Gupta             0.00                          0.09                          0.92                        
+  Fatima Khan             0.27                          0.00                          0.04                        
+  Gaurav Singh            0.00                          0.03                          0.07                        
+  Harini Reddy            0.00                          0.11                          0.00                        
+  Ishaan Verma            0.05                          0.00                          0.13                        
+  Jhanvi Desai            0.05                          0.12                          0.05                        
+
+================================================================
+  STEP 5 - TOP 3 CANDIDATES PER JD
+================================================================
+
+  +-- JD1 - AI/ML Engineer (Seoul Tech)
+  |  [1]  #1  Divya Nair              Score: 0.75  ###############
+  |  [2]  #2  Aarav Sharma            Score: 0.45  #########
+  |  [3]  #3  Fatima Khan             Score: 0.27  #####
+  +----------------------------------------------------
+
+  +-- JD2 - Full-Stack Developer (Kakao)
+  |  [1]  #1  Chirag Mehta            Score: 0.76  ###############
+  |  [2]  #2  Bhavya Patel            Score: 0.26  #####
+  |  [3]  #3  Jhanvi Desai            Score: 0.12  ##
+  +----------------------------------------------------
+
+  +-- JD3 - DevOps/Cloud Engineer (Samsung SDS)
+  |  [1]  #1  Eshan Gupta             Score: 0.92  ##################
+  |  [2]  #2  Bhavya Patel            Score: 0.19  ###
+  |  [3]  #3  Ishaan Verma            Score: 0.13  ##
+  +----------------------------------------------------
